@@ -115,9 +115,9 @@ content:
     content: | # this will include new lines to allow paragraphs
       <div class="pub-toolbar">
       <button class="pub-filter-btn active" data-mode="default" type="button">Overall</button>
-      <button class="pub-filter-btn" data-mode="first" type="button">First Only</button>
+      <button class="pub-filter-btn" data-mode="first" type="button">First</button>
       <select id="pub-year-select" class="pub-year-select">
-      <option value="">Year Select</option>
+      <option value="">Year</option>
       </select>
       </div>
       <div id="pub-list">
