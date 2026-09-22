@@ -357,6 +357,42 @@ p.quote {
   }
 }
 
+.pub-year-select {
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 5px 28px 5px 14px;
+  border-radius: 999px;
+  border: 1px solid #d7dde5;
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23444444' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 12px;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease;
+
+  &:hover {
+    background-color: #f0f4f8;
+  }
+
+  &.active {
+    background-color: #355e98;
+    border-color: #355e98;
+    color: #fff;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'/></svg>");
+  }
+
+  option {
+    color: #222;
+    background: #fff;
+  }
+}
+
 .pub-meta u {
   text-decoration: underline;
   text-decoration-thickness: 1px;
