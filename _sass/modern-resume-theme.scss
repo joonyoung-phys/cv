@@ -328,6 +328,7 @@ p.quote {
 
 .pub-toolbar {
   display: flex;
+  align-items: center;
   gap: 0.6rem;
   flex-wrap: wrap;
   margin: 0 0 1.6rem;
@@ -338,6 +339,7 @@ p.quote {
   font-family: inherit;
   font-size: 1.2rem;
   font-weight: 500;
+  line-height: 1;
   padding: 5px 14px;
   border-radius: 999px;
   border: 1px solid #d7dde5;
@@ -361,6 +363,8 @@ p.quote {
   font-family: inherit;
   font-size: 1.2rem;
   font-weight: 500;
+  line-height: 1;
+  width: 99px;
   padding: 5px 28px 5px 14px;
   border-radius: 999px;
   border: 1px solid #d7dde5;
