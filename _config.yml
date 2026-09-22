@@ -78,28 +78,26 @@ content:
       </div>
 
   - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Kyungpook National U.
-        sub_title: Ph.D. in Condensed Matter Physics
-        caption: Mar. 2020 – Feb. 2025
-        description: | # this will include new lines to allow paragraphs
-          Thesis: Spontaneous Hall effect and unusual hysteresis of magnetic torque in transition metal dichalcogenide
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      <div class="pub-entry">
+      <p class="pub-title">Kyungpook National U. — Ph.D. in Condensed Matter Physics</p>
+      <p class="pub-meta">Mar. 2020 – Feb. 2025</p>
+      <p class="pub-meta">Thesis: Spontaneous Hall effect and unusual hysteresis of magnetic torque in transition metal dichalcogenide</p>
+      <p class="pub-meta">Advisor: Younjung Jo</p>
+      </div>
 
-          Advisor: Younjung Jo
-      - layout: top-right
-        title: Kyungpook National U.
-        sub_title: M.S. in Condensed Matter Physics
-        caption: Mar. 2018 – Feb. 2020
-        description: | # this will include new lines to allow paragraphs
-          Thesis: Tc variations in superconducting niobium films with strain and ionic-liquid gating
+      <div class="pub-entry">
+      <p class="pub-title">Kyungpook National U. — M.S. in Condensed Matter Physics</p>
+      <p class="pub-meta">Mar. 2018 – Feb. 2020</p>
+      <p class="pub-meta">Thesis: Tc variations in superconducting niobium films with strain and ionic-liquid gating</p>
+      <p class="pub-meta">Advisor: Younjung Jo</p>
+      </div>
 
-          Advisor: Younjung Jo
-      - layout: top-right
-        title: Kyungpook National U.
-        sub_title: B.S. in Physics
-        caption: Mar. 2012 – Feb. 2018
+      <div class="pub-entry">
+      <p class="pub-title">Kyungpook National U. — B.S. in Physics</p>
+      <p class="pub-meta">Mar. 2012 – Feb. 2018</p>
+      </div>
 
   - title: Awards and Fellowships
     layout: text
@@ -117,8 +115,10 @@ content:
     content: | # this will include new lines to allow paragraphs
       <div class="pub-toolbar">
       <button class="pub-filter-btn active" data-mode="default" type="button">전체</button>
-      <button class="pub-filter-btn" data-mode="year" type="button">연도별 모아보기</button>
       <button class="pub-filter-btn" data-mode="first" type="button">주저자만 보기</button>
+      <select id="pub-year-select" class="pub-year-select">
+      <option value="">연도별 보기</option>
+      </select>
       </div>
       <div id="pub-list">
       <p class="pub-group-label">In Preparation &amp; Submitted</p>
