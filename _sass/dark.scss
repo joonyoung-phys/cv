@@ -66,4 +66,20 @@
   .award-text {
     color: #e6e6e6;
   }
+
+  .pub-filter-btn {
+    background: #2a2a2a;
+    border-color: #444;
+    color: #ddd;
+
+    &:hover {
+      background: #333;
+    }
+
+    &.active {
+      background: #6ea8fe;
+      border-color: #6ea8fe;
+      color: #12202e;
+    }
+  }
 }
