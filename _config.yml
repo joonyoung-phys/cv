@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: joonyoung-phys/cv
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -7,8 +7,7 @@ version: 2
 
 # Personal info
 name: Joonyoung Choi
-title: Postdoc Researcher
-email: oscar518@knu.ac.kr
+title: Postdoctoral Researcher
 email: joonyoung.phys@gmail.com
 # email_title: Email (Email title override)
 # phone: +82-10-4109-0003
@@ -50,70 +49,161 @@ googlescholar_username: g30hA1YAAAAJ&hl=ko
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_title: Research Interests
+# about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  My research background centers on probing electronic band topology and Berry curvature through resistivity, Hall effect, magnetic torque, and high-pressure measurements.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Looking forward, I aim to incorporate highly resolvable techniques—such as scanning NV-center magnetometry for local magnetic mapping, and NMR or thermal transport for detecting symmetry breaking—to explore unexplained physical phenomena.
+
+  Ultimately, my goal is to drive impactful research that contributes to human well-being, with a specific focus on understanding superconductivity and identifying applicable novel magnetic states.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+  - title: Employment History
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+        title: Radiation Science Research Institute (RSRI), Kyungpook National U.
+        sub_title: Postdoctoral Researcher
+        caption: Sep. 2026 – present
+      - layout: right
+        title: Institute for Sciences of the Universe, Chungnam National U.
+        sub_title: Postdoctoral Researcher
+        caption: Oct. 2025 – Aug. 2026
+      - layout: right
+        title: Radiation Science Research Institute (RSRI), Kyungpook National U.
+        sub_title: Postdoctoral Researcher
+        caption: Mar. 2025 – Sep. 2025
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+        title: Kyungpook National U.
+        sub_title: Ph.D. in Condensed Matter Physics
+        caption: Mar. 2020 – Feb. 2025
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+          Thesis: Spontaneous Hall effect and unusual hysteresis of magnetic torque in transition metal dichalcogenide
+
+          Advisor: Younjung Jo
+      - layout: top-right
+        title: Kyungpook National U.
+        sub_title: M.S. in Condensed Matter Physics
+        caption: Mar. 2018 – Feb. 2020
+        description: | # this will include new lines to allow paragraphs
+          Thesis: Tc variations in superconducting niobium films with strain and ionic-liquid gating
+
+          Advisor: Younjung Jo
+      - layout: top-right
+        title: Kyungpook National U.
+        sub_title: B.S. in Physics
+        caption: Mar. 2012 – Feb. 2018
+
+  - title: Awards and Fellowships
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      - **2025** — Certificate of Merit for Academic Excellence, The Korean Physical Society (KPS)
+      - **2023** — Ph.D. fellowship grant for 1 year, National Research Foundation (NRF) Korea
+      - **2021** — Ph.D. fellowship for 2 semesters, Kyungpook National U.
+      - **2021** — Poster Presentation Award, 2021 Symposium on Applied Physics, Korean Physical Society
+      - **2018** — Brain Korea 21 Scholarship for Graduate Students (2018 - 2023)
+      - **2018** — Einstein Awards (Summa Cum Laude), Kyungpook National U.
+      - **2017** — Undergraduate Poster Presentation Award, 2017 Korea Physical Society Fall Meeting
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: Publications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **In Preparation & Submitted**
+
+      [4] Joonyoung Choi, Younsik Kim, David Graf, Eun Sang Choi, Woun Kang, Changyoung Kim, Youn Jung Jo, "Spiral magnetic order induced anomalous Hall effect in pressurized FeTe", in preparation.
+
+      [3] Do Hoon Kiem, Muhammad Nauman, Joonyoung Choi, David Graf, Junghyun Kim, Je-Geun Park, Younjung Jo, Myung Joon Han, "Crucial role of magnetic dipole and anomalous field dependence in NiPS₃", *Small*, accepted.
+
+      [2] Chang-woo Cho, Beomtak Kang, Ildo Choi, Jitae Gwak, Jisung Lee, Seung-Young Park, Seyoung Kwon, Sungkyun Park, Joonyoung Choi, Younjung Jo, Benjamin A. Piot, Jun Sung Kim, "Coherent canted ferrimagnetism and higher-order anisotropy in the nodal-line magnetic semiconductor Mn₃Si₂Te₆", *Nature Communications*, submitted. [arXiv:2603.19673](https://arxiv.org/abs/2603.19673)
+
+      [1] Hyeong Woo Seo, Dongju Hwang, Hoseong Jeon, Hoil Kim, Junseung Lee, Eun Sang Choi, Joonyoung Choi, Younjung Jo, Jong Mok Ok, Kyung-Hwan Jin, Gil Young Cho, Jun Sung Kim, "Quantum oscillation interference from momentum-dependent spin texture in a frustrated antiferromagnet", *Nature Physics*, submitted.
+
+      **Published**
+
+      [19] Minhyuk Choi, Hoil Kim, Minki Sung, Hyeongwoo Seo, Joonyoung Choi, Jaeyoung Kim, Younjung Jo, Han Woong Yeom, Kyung-Hwan Jin, Jun Sung Kim, "Colossal magnetic-field-induced anomalous Hall conductivity in a kagome antiferromagnet YMn₆Sn₆", *Advanced Science*, 0:e77738 (2026). DOI: [10.1002/advs.77738](https://doi.org/10.1002/advs.77738)
+
+      [18] Kai-Xuan Zhang, Suik Cheon, Seungbok Lee, Joonyoung Choi, Jihoon Keum, Hyuncheol Kim, Yeochan An, Woonghee Cho, Suhan Son, Jingyuan Cui, Pyeongjae Park, Younjung Jo, Jun Sung Kim, Hyun-Woo Lee, Je-Geun Park, "Interfacial chirality-induced magnetic field-free switching with high energy efficiency in all-vdW heterostructures", *Nature Communications*, 17, 8620 (2026). DOI: [10.1038/s41467-026-75548-x](https://doi.org/10.1038/s41467-026-75548-x)
+
+      [17] Joonyoung Choi, Pyeongjae Park, Woonghee Cho, Woun Kang, Je-Geun Park, Younjung Jo, "Weak in-plane ferromagnetism and electronic nematicity in the distorted triple-Q magnetic phase of Co₁/₃TaS₂", *Advanced Materials*, 38, 0:e00020 (2026). DOI: [10.1002/adma.202600020](https://doi.org/10.1002/adma.202600020)
+
+      [16] Mariam Omran, Seungyong Eom, Dilanath Adhikari, Joonyoung Choi, Yusuff Salawu, Do-hyung Kim, Heon-Jung Kim, Younjung Jo, "Interfacial engineering of Fe₃O₄/reduced graphene oxide nanocomposites for spintronics applications", *APL Materials*, 14, 051114 (2026). DOI: [10.1063/5.0329740](https://doi.org/10.1063/5.0329740)
+
+      [15] T. Hussain, J. Choi, Mariam Omran, Garam Han, Changyoung Kim, Woun Kang, Muhammad Nauman, Y. Jo, "Chemical and hydrostatic pressure induced metallization in NiS₂₋ₓSeₓ single crystals", *Scientific Reports*, 16, 13296 (2026). DOI: [10.1038/s41598-026-42983-1](https://doi.org/10.1038/s41598-026-42983-1)
+
+      [14] Sangjin Kim, Kwang-Tak Kim, Min Hyuk Choi, Hyungwon Nam, Jun Seong Lee, Joonyoung Choi, Yeehan Sur, Kiwan Nam, Hyunju Hwang, Jungwon Choi, Eun Sang Choi, Woun Kang, Youn Jung Jo, Jun Sung Kim, Soonjae Moon, Kee Hoon Kim, "Evidence of massive Dirac fermions in the kagome nodal-line semimetal Ni₃In₂S₂", *Physical Review B*, 112, 045139 (2025). DOI: [10.1103/6jzx-mdjv](https://doi.org/10.1103/6jzx-mdjv)
+
+      [13] Kai-Xuan Zhang, Suik Cheon, Hyuncheol Kim, Pyeongjae Park, Yeochan An, Suhan Son, Jingyuan Cui, Jihoon Keum, Joonyoung Choi, Younjung Jo, Hwiin Ju, Jong-Seok Lee, Youjin Lee, Maxim Avdeev, Armin Kleibert, Hyun-Woo Lee, Je-Geun Park, "Current-Driven Collective Control of Helical Spin Texture in van der Waals Antiferromagnet", *Physical Review Letters*, 134, 176701 (2025). DOI: [10.1103/PhysRevLett.134.176701](https://doi.org/10.1103/PhysRevLett.134.176701)
+
+      [12] Jaeyong Jeong, Seong Kwang Kim, Yoon-Je Suh, Jisung Lee, Joonyoung Choi, Joon Pyo Kim, Bong Ho Kim, Juhyuk Park, Joonsup Shim, Nahyun Rheem, Chan Jik Lee, Younjung Jo, Dae-Myeong Geum, Seung-Young Park, Jongmin Kim, Sanghyeon Kim, "Cryogenic III-V and Nb electronics integrated on silicon for large-scale quantum computing platforms", *Nature Communications*, 15, 10809 (2024). DOI: [10.1038/s41467-024-55077-1](https://doi.org/10.1038/s41467-024-55077-1)
+
+      [11] Joonyoung Choi, Jin-Hong Park, Wonshik Kyung, Younsik Kim, Mi Kyung Kim, Junyoung Kwon, Changyoung Kim, Jun-Won Rhim, Se Young Park, Younjung Jo, "Tunable Colossal Anomalous Hall Conductivity in Half-Metallic Material Induced by d-Wave-Like Spin-Orbit Gap", *Advanced Science*, 16, 2307288 (2024). DOI: [10.1002/advs.202307288](https://doi.org/10.1002/advs.202307288)
+
+      [10] Younsik Kim, Min-Seok Kim, Dongwook Kim, Minjae Kim, Minsoo Kim, Cheng-Maw Cheng, Joonyoung Choi, Sangyeol Jung, Donghui Lu, Jong Hyuk Kim, Soohyun Cho, Dongjoon Song, Dongjin Oh, Li Yu, Young Jai Choi, Hyeong-Do Kim, Jung Hoon Han, Younjung Jo, Ji Hoon Shim, Jungpil Seo, Soonsang Huh, Changyoung Kim, "Kondo interaction in FeTe and its potential role in the magnetic order", *Nature Communications*, 14, 39827 (2023).
+
+      [9] Ji Eun Lee, Joonyoung Choi, Taek Sun Jung, Jong Hyuk Kim, Young Jai Choi, Kyung Ik Sim, Younjung Jo, Jae Hoon Kim, "Gapless superconductivity in Nb thin films probed by terahertz spectroscopy", *Nature Communications*, 14, 2737 (2023). DOI: [10.1038/s41467-023-38422-8](https://doi.org/10.1038/s41467-023-38422-8)
+
+      [8] Mariam Omran, Joonyoung Choi, Younjung Jo, Mi Kyung Kim, Changyoung Kim, "Out-of-plane Magnetic Anisotropy in Cleaved and Uncleaved CoS₂", *New Physics: Sae Mulli*, 72, 96–99 (2023). DOI: [10.3938/NPSM.72.96](https://doi.org/10.3938/NPSM.72.96)
+
+      [7] Ji-Hye Kim, Jong Mok Ok, Joonyoung Choi, Woun Kang, Jun Sung Kim, Younjung Jo, "Enhanced vortex pinning with possible antiferromagnetic order in FeSe under pressure", *Physical Review B*, 105, 035133 (2022). DOI: [10.1103/PhysRevB.105.035133](https://doi.org/10.1103/PhysRevB.105.035133)
+
+      [6] Muhammad Nauman, Tayyaba Hussain, Joonyoung Choi, Nara Lee, Young Jai Choi, Woun Kang, Younjung Jo, "Low-field magnetic anisotropy of Sr₂IrO₄", *Journal of Physics: Condensed Matter*, 34, 135802 (2022). DOI: [10.1088/1361-648X/ac484d](https://doi.org/10.1088/1361-648X/ac484d)
+
+      [5] Joonyoung Choi, Chang-Duk Kim, Younjung Jo, "Dependence of superconductivity on the crystallinity of Nb films on Si wafers", *Progress in Superconductivity and Cryogenics*, 23, No. 4 (2021). DOI: [10.3928/PSAC.2021.23.4.001](https://doi.org/10.3928/PSAC.2021.23.4.001)
+
+      [4] Joonyoung Choi, Young-Kyoung Kim, Chang-Duk Kim, Sooran Kim, Younjung Jo, "Enhancing the critical temperature of strained Niobium films", *Materials Research Express*, 7, 076001 (2020). DOI: [10.1088/2053-1591/abaf4a](https://doi.org/10.1088/2053-1591/abaf4a)
+
+      [3] Joonyoung Choi, Jinyong Kim, Hyeona Kim, Ganghyeon Park, Giseong Lee, Younjung Jo, Chang-Duk Kim, "Characterization of MgZnO films depending on the deposition power of RF sputtering system", *New Physics: Sae Mulli*, 69, 369–375 (2019). DOI: [10.3938/NPSM.69.369](https://doi.org/10.3938/NPSM.69.369)
+
+      [2] Chungman Kim, Woosuk Yoo, Hyun-Woo Bang, Sungjun Lee, Yun Chang Park, Young Haeng Lee, Joonyoung Choi, Younjung Jo, Kyunghoon Lee, Myung-Hwa Jung, "Highly Reduced Saturation Magnetization in Epitaxially Grown Ferrimagnetic Heusler Thin Films", *ACS Omega*, 4, 16578–16584 (2019). DOI: [10.1021/acsomega.9b02389](https://doi.org/10.1021/acsomega.9b02389)
+
+      [1] Joonyoung Choi, Jaehyun Lee, Chang-Duk Kim, Younjung Jo, Jeonghun Kang, Sung Ho Bae, Jaehyeok Yang, DabIn Jeong, "Analysis of the Superconducting Characteristics of Niobium Thin Films Deposited by Using a DC Magnetron Sputtering System", *New Physics: Sae Mulli*, 68, 284–289 (2018). DOI: [10.3938/NPSM.68.284](https://doi.org/10.3938/NPSM.68.284)
+
+  - title: Conferences and Seminars
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      [8] "Mysterious Magnetization and Rotational Hysteresis in the magnetic torque of Co₁/₃TaS₂", Seminar at Department of Physics, KAIST (August 22, 2025, Daejeon, Korea)
+
+      [7] "Magnetic Rotational Hysteresis by Cluster Multipoles in Co₁/₃TaS₂", Poster at Workshop on Altermagnets and School on Magnetic Symmetry (June 22–26, 2025, Shanghai, China)
+
+      [6] "Analysis of magnetic and rotational hysteresis of Co₁/₃TaS₂", Poster at 2nd International Conference on Quantum Magnetism and Topology (June 18–20, 2025, Pohang, Korea)
+
+      [5] "Hysteretic magnetic torque by chirality-driven magnetization in Co₁/₃TaS₂", Poster at 13th International Conference on Highly Frustrated Magnetism (May 25–30, 2025, Toronto, Canada)
+
+      [4] "Colossal anomalous Hall conductivity in half-metallic material Fe-doped CoS₂", Contributed Oral at 2024 March Meeting APS (March 4–8, 2024, Minneapolis, MN, USA)
+
+      [3] "Enlargement of anomalous Hall conductivity in Fe-doped CoS₂", Poster at 13th International Conference on Advanced Materials and Devices (Dec 4–8, 2023, Jeju, Korea)
+
+      [2] "Enlargement of anomalous Hall conductivity in Fe-doped CoS₂", Poster at 1st International Conference on Quantum Magnetism and Topology (June 27–29, 2025, Pohang, Korea)
+
+      [1] "Tunable anomalous Hall conductivity of itinerant ferromagnet CoS₂", Poster at 2022 Fall Meeting MRS (Nov 27–Dec 2, 2022, Boston, MA, USA)
+
+  - title: Funding and Research Proposals
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      [2] Ph.D. fellowship grant for 1 year, National Research Foundation (NRF) Korea — 20,000,000 KRW (about 13,600 USD). "Investigating the mechanism of quantum transport effects in itinerant ferromagnets"
+
+      [1] User proposal for DC field experiments at NHMFL, FL, USA, Jan 2024. "The role of Kondo interactions in d-electron systems and the emergence of exotic phenomena"
+
+  - title: References
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Prof. Younjung Jo** (M.S./Ph.D. thesis advisor) — Professor, Department of Physics, Kyungpook National University, Korea. Email: jophy@knu.ac.kr
+
+      **Prof. Changyoung Kim** — Professor, Department of Physics and Astronomy, Seoul National University, Korea. Email: changyoung@snu.ac.kr
+
+      **Prof. Je-Geun Park** — Professor, Department of Physics and Astronomy, Seoul National University, Korea. Email: jgpark10@snu.ac.kr
+
+      **Prof. Myung Joon Han** — Professor, Department of Physics, Korea Advanced Institute of Science and Technology (KAIST), Korea. Email: mj.han@kaist.ac.kr
+
+      **Dr. David Graf** — Research faculty, DC Field Condensed Matter Science, National High Magnetic Field Laboratory, FL, USA. Email: graf@magnet.fsu.edu
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
