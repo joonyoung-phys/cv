@@ -309,33 +309,33 @@ content:
       <p class="pub-meta">&ldquo;The role of Kondo interactions in d-electron systems and the emergence of exotic phenomena&rdquo;</p>
       </div>
 
-  - title: References
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      <div class="ref-entry">
-      <p class="pub-title">Prof. Younjung Jo <span class="ref-role">(M.S./Ph.D. thesis advisor)</span></p>
-      <p class="pub-meta">Professor, Department of Physics, Kyungpook National University, Korea. <a href="mailto:jophy@knu.ac.kr">jophy@knu.ac.kr</a></p>
-      </div>
+  # - title: References
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     <div class="ref-entry">
+  #     <p class="pub-title">Prof. Younjung Jo <span class="ref-role">(M.S./Ph.D. thesis advisor)</span></p>
+  #     <p class="pub-meta">Professor, Department of Physics, Kyungpook National University, Korea. <a href="mailto:jophy@knu.ac.kr">jophy@knu.ac.kr</a></p>
+  #     </div>
 
-      <div class="ref-entry">
-      <p class="pub-title">Prof. Changyoung Kim</p>
-      <p class="pub-meta">Professor, Department of Physics and Astronomy, Seoul National University, Korea. <a href="mailto:changyoung@snu.ac.kr">changyoung@snu.ac.kr</a></p>
-      </div>
+  #     <div class="ref-entry">
+  #     <p class="pub-title">Prof. Changyoung Kim</p>
+  #     <p class="pub-meta">Professor, Department of Physics and Astronomy, Seoul National University, Korea. <a href="mailto:changyoung@snu.ac.kr">changyoung@snu.ac.kr</a></p>
+  #     </div>
 
-      <div class="ref-entry">
-      <p class="pub-title">Prof. Je-Geun Park</p>
-      <p class="pub-meta">Professor, Department of Physics and Astronomy, Seoul National University, Korea. <a href="mailto:jgpark10@snu.ac.kr">jgpark10@snu.ac.kr</a></p>
-      </div>
+  #     <div class="ref-entry">
+  #     <p class="pub-title">Prof. Je-Geun Park</p>
+  #     <p class="pub-meta">Professor, Department of Physics and Astronomy, Seoul National University, Korea. <a href="mailto:jgpark10@snu.ac.kr">jgpark10@snu.ac.kr</a></p>
+  #     </div>
 
-      <div class="ref-entry">
-      <p class="pub-title">Prof. Myung Joon Han</p>
-      <p class="pub-meta">Professor, Department of Physics, Korea Advanced Institute of Science and Technology (KAIST), Korea. <a href="mailto:mj.han@kaist.ac.kr">mj.han@kaist.ac.kr</a></p>
-      </div>
+  #     <div class="ref-entry">
+  #     <p class="pub-title">Prof. Myung Joon Han</p>
+  #     <p class="pub-meta">Professor, Department of Physics, Korea Advanced Institute of Science and Technology (KAIST), Korea. <a href="mailto:mj.han@kaist.ac.kr">mj.han@kaist.ac.kr</a></p>
+  #     </div>
 
-      <div class="ref-entry">
-      <p class="pub-title">Dr. David Graf</p>
-      <p class="pub-meta">Research faculty, DC Field Condensed Matter Science, National High Magnetic Field Laboratory, FL, USA. <a href="mailto:graf@magnet.fsu.edu">graf@magnet.fsu.edu</a></p>
-      </div>
+  #     <div class="ref-entry">
+  #     <p class="pub-title">Dr. David Graf</p>
+  #     <p class="pub-meta">Research faculty, DC Field Condensed Matter Science, National High Magnetic Field Laboratory, FL, USA. <a href="mailto:graf@magnet.fsu.edu">graf@magnet.fsu.edu</a></p>
+  #     </div>
 
 
 # Footer
