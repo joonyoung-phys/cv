@@ -10,6 +10,60 @@
   }
 
   a {
-    color: #477dca;
+    color: #6ea8fe;
+  }
+
+  .pub-entry,
+  .ref-entry {
+    border-bottom-color: #3a3a3a;
+  }
+
+  .pub-title {
+    color: #f0f0f0;
+  }
+
+  .pub-meta {
+    color: #b0b0b0;
+
+    em {
+      color: #d0d0d0;
+    }
+  }
+
+  .pub-group-label,
+  .ref-role {
+    color: #8fa3bf;
+  }
+
+  .pub-tag {
+    background: #2c3e50;
+    color: #9dc0ff;
+
+    &:hover {
+      background: #38536b;
+      color: #9dc0ff;
+    }
+  }
+
+  .pub-tag-alt {
+    background: #3a2e47;
+    color: #cbb2e6;
+
+    &:hover {
+      background: #4a3a5b;
+      color: #cbb2e6;
+    }
+  }
+
+  .award-entry {
+    border-bottom-color: #3a3a3a;
+  }
+
+  .award-year {
+    color: #6ea8fe;
+  }
+
+  .award-text {
+    color: #e6e6e6;
   }
 }

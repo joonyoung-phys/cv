@@ -192,3 +192,136 @@ p.quote {
     margin-top: 1rem;
   }
 }
+
+/* ==========================================================================
+   Custom additions: cleaner publication / award / reference entries
+   (added on top of the stock theme — safe to tweak or remove)
+   ========================================================================== */
+
+.text-container p,
+.text-container ul {
+  text-align: left;
+}
+
+.pub-group-label {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #8a94a6;
+  margin: 2rem 0 1rem;
+  text-align: left;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.pub-entry,
+.ref-entry {
+  text-align: left;
+  padding: 0.9rem 0 0.9rem;
+  border-bottom: 1px solid #eaeaea;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  @media print {
+    padding: 0.4rem 0;
+    break-inside: avoid;
+  }
+}
+
+.pub-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.35;
+  margin: 0 0 0.2rem;
+  color: #222;
+}
+
+.pub-meta {
+  font-size: 1.4rem;
+  color: #666;
+  margin: 0 0 0.4rem;
+  line-height: 1.4;
+
+  em {
+    font-style: italic;
+    color: #444;
+  }
+}
+
+.pub-meta:last-child {
+  margin-bottom: 0;
+}
+
+.ref-role {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #8a94a6;
+}
+
+.pub-tags {
+  margin: 0.3rem 0 0;
+}
+
+.pub-tag {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 2px 9px;
+  border-radius: 4px;
+  background: #eef2f7;
+  color: #355e98;
+  text-decoration: none;
+  margin-right: 6px;
+
+  &:hover {
+    background: #dbe6f3;
+    color: #355e98;
+  }
+
+  @media print {
+    background: none;
+    padding: 0;
+    color: #333;
+    text-decoration: underline;
+  }
+}
+
+.pub-tag-alt {
+  background: #f3eef7;
+  color: #6a4c93;
+
+  &:hover {
+    background: #e6dcf0;
+    color: #6a4c93;
+  }
+}
+
+.award-entry {
+  text-align: left;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  gap: 1rem;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.award-year {
+  flex: 0 0 4.5rem;
+  font-weight: 700;
+  color: #355e98;
+  font-size: 1.4rem;
+}
+
+.award-text {
+  font-size: 1.4rem;
+  color: #333;
+}
