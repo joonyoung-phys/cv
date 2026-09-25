@@ -54,6 +54,8 @@ about_title: Research Interests
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
 
+ Novel phenomena in condensed matter arising from electron correlations and topological band structures with broken symmetry. These span magnetism and superconductivity, including altermagnets featuring momentum-dependent spin splitting, unconventional pairing in iron-based superconductors intertwined with nematic orders, and frustrated magnetism and charge density waves in kagome metals. Particularly, I am interested in the mechanisms driving strong magnetic anisotropy in materials with compensated spin alignments exhibiting ferromagnet-like properties. Combined with their strong anisotropy, these systems manifest magnetic hysteresis promising for spintronic applications. 
+
  My work has moved through several techniques rather than following one plan from the start: thin-film growth and superconductivity during my MS, and then Hall effect and magnetotransport, pressure cells, and magnetic torque measurements on materials with unconventional magnetic order for PhD. Each one was something I picked up because a project needed it at the time.
 
  I'm now adding NV-center magnetometry, NMR, RUS, and thermal transport to that toolkit, mainly because transport measurements alone can tell you that symmetry is broken but not always how or where. I still keep an eye on superconductivity, and I'd like this combination of techniques to eventually turn up magnetic states that are not just interesting but useful.
