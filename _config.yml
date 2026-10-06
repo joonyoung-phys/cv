@@ -131,22 +131,23 @@ content:
       </div>
 
       <div class="pub-entry" data-year="inprep" data-first="false">
-      <p class="pub-title">Crucial role of magnetic dipole and anomalous field dependence in NiPS₃</p>
-      <p class="pub-meta">Do Hoon Kiem, Muhammad Nauman, <u><strong>Joonyoung Choi</strong></u>, David Graf, Junghyun Kim, Je-Geun Park, Younjung Jo, Myung Joon Han, <em>Small</em>, accepted.</p>
-      </div>
-
-      <div class="pub-entry" data-year="inprep" data-first="false">
-      <p class="pub-title">Coherent canted ferrimagnetism and higher-order anisotropy in the nodal-line magnetic semiconductor Mn₃Si₂Te₆</p>
-      <p class="pub-meta">Chang-woo Cho, Beomtak Kang, Ildo Choi, Jitae Gwak, Jisung Lee, Seung-Young Park, Seyoung Kwon, Sungkyun Park, <u><strong>Joonyoung Choi</strong></u>, Younjung Jo, Benjamin A. Piot, Jun Sung Kim, <em>Nature Communications</em>, submitted.</p>
-      <p class="pub-tags"><a class="pub-tag pub-tag-alt" href="https://arxiv.org/abs/2603.19673" target="_blank">arXiv</a></p>
-      </div>
-
-      <div class="pub-entry" data-year="inprep" data-first="false">
       <p class="pub-title">Quantum oscillation interference from momentum-dependent spin texture in a frustrated antiferromagnet</p>
       <p class="pub-meta">Hyeong Woo Seo, Dongju Hwang, Hoseong Jeon, Hoil Kim, Junseung Lee, Eun Sang Choi, <u><strong>Joonyoung Choi</strong></u>, Younjung Jo, Jong Mok Ok, Kyung-Hwan Jin, Gil Young Cho, Jun Sung Kim, <em>Nature Physics</em>, submitted.</p>
       </div>
 
       <p class="pub-group-label">Published</p>
+
+      <div class="pub-entry" data-year="2026" data-first="false">
+      <p class="pub-title">Crucial role of magnetic dipole and anomalous field dependence in NiPS₃</p>
+      <p class="pub-meta">Do Hoon Kiem, Muhammad Nauman, <u><strong>Joonyoung Choi</strong></u>, David Graf, Junghyun Kim, Je-Geun Park, Younjung Jo, Myung Joon Han, <em>Small</em>, 0:e75903 (2026).</p>
+      <p class="pub-tags"><a class="pub-tag" href="https://doi.org/10.1002/smll.75903" target="_blank">DOI</a></p>
+      </div>
+
+      <div class="pub-entry" data-year="2026" data-first="false">
+      <p class="pub-title">Coherent canted ferrimagnetism and higher-order anisotropy in the nodal-line magnetic semiconductor Mn₃Si₂Te₆</p>
+      <p class="pub-meta">Chang-woo Cho, Beomtak Kang, Ildo Choi, Jitae Gwak, Jisung Lee, Seung-Young Park, Seyoung Kwon, Sungkyun Park, <u><strong>Joonyoung Choi</strong></u>, Younjung Jo, Benjamin A. Piot, Jun Sung Kim, <em>Communications Materials</em>, Advance online publication.</p>
+      <p class="pub-tags"><a class="pub-tag" href="https://doi.org/10.1038/s43246-026-01366-9" target="_blank">DOI</a></p>
+      </div>
 
       <div class="pub-entry" data-year="2026" data-first="false">
       <p class="pub-title">Colossal magnetic-field-induced anomalous Hall conductivity in a kagome antiferromagnet YMn₆Sn₆</p>
