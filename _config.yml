@@ -174,6 +174,12 @@ content:
       </div>
 
       <div class="pub-entry" data-year="2026" data-first="false">
+      <p class="pub-title"></p>
+      <p class="pub-meta">Ju Hyeon Kim, <u><strong>J. Choi</strong></u>, Jae Hyuck Lee, Hoil Kim, Hyeongwoo Seo, Jun Seong Lee, Myeongjun Kang, Eun Sang Choi, Woun Kang, Jong Mok Ok, Jun Sung Kim, Changyoung Kim, Younjung Jo, <em>Current Applied Physics</em>, 88, 29-35 (2026).</p>
+      <p class="pub-tags"><a class="pub-tag" href="https://doi.org/10.1016/j.cap.2026.04.011" target="_blank">DOI</a></p>
+      </div>
+
+      <div class="pub-entry" data-year="2026" data-first="false">
       <p class="pub-title">Chemical and hydrostatic pressure induced metallization in NiS₂₋ₓSeₓ single crystals</p>
       <p class="pub-meta">T. Hussain, <u><strong>J. Choi</strong></u>, Mariam Omran, Garam Han, Changyoung Kim, Woun Kang, Muhammad Nauman, Y. Jo, <em>Scientific Reports</em>, 16, 13296 (2026).</p>
       <p class="pub-tags"><a class="pub-tag" href="https://doi.org/10.1038/s41598-026-42983-1" target="_blank">DOI</a></p>
